@@ -1,0 +1,14 @@
+
+public class Assign21 {
+
+	public static void main(String[] args) {
+		AB a1 = new AB();
+		a1.print();
+		
+//		AB a2 = new AB("test");
+//		a2.print();
+
+	}
+
+}
+

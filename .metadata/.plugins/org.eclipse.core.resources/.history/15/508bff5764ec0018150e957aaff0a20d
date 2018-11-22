@@ -1,0 +1,14 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		VipCustomer v1 = new VipCustomer();
+		System.out.println(v1.getName());
+		
+
+		VipCustomer v2 = new VipCustomer("James", 4500.0);
+		System.out.println(v2.getName()+" has credit limit "+v2.getCreditLimit());
+	}
+
+}

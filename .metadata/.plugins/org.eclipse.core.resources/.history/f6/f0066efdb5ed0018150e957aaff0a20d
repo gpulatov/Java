@@ -1,0 +1,12 @@
+package com.cybertek.p2;
+
+import com.cybertek.p1.A;
+
+public class B {
+
+	public static void main(String[] args) {
+		
+		A obj = new A();
+	}
+
+}

@@ -1,0 +1,24 @@
+
+public class Assign14 {
+
+	public static void main(String[] args) {
+
+		System.out.println(isPalindrome(-1221));
+
+	}
+
+	public static boolean isPalindrome(int number) {
+		int reverse = 0;
+		int lastDigit;
+		while (number > 0) {
+			lastDigit = number % 10;
+			number /= 10;
+			reverse *= 10 + lastDigit;
+		}
+		if (reverse == number || reverse == -number) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+}

@@ -1,0 +1,9 @@
+
+public class AB {
+	public String str;
+	public double val;
+	
+	public void print() {
+		System.out.println("str: "+str+", val: "+val);
+	}
+}

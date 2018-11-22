@@ -1,0 +1,20 @@
+package Map;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class HashMapClass {
+
+	public static void main(String[] args) {
+		Map map1 = new HashMap();
+		
+		map1.put("Honda", "Civic");
+		map1.put("Honda", "Accord");
+		map1.put("Honda", "CR-V");
+		map1.put("Honda", "Odyssey");
+		
+		System.out.println(map1);
+
+	}
+
+}

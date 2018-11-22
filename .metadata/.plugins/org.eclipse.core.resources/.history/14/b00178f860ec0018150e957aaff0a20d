@@ -1,0 +1,30 @@
+
+public class A {
+	public String str;
+	public double val;
+
+	public A(String str, double val) {
+
+		this.str = str;
+		this.val = val;
+	}
+
+	public A() {
+		this.str = "JAVA";
+		this.val = 0.0;
+	}
+
+	public A(String str) {
+		this.str = str;
+		this.val = 0.0;
+	}
+
+	public A(double val) {
+		this.val = val;
+		this.str = "JAVA";
+	}
+
+	public void print() {
+		System.out.println("str: " + str + ", val: " + val);
+	}
+}
