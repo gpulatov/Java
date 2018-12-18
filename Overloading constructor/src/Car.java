@@ -6,7 +6,7 @@ public class Car {
 	  public int year;
 	  
 	  public Car(String make) {
-	    System.out.println(make + "SOmething");
+	    System.out.println(make + " Something");
 	  }
 	  
 	  public Car(String make,String model,int year) {
